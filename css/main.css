@@ -24,7 +24,7 @@ html{
 	padding-right: 30px;
 }
 
-/*header*/
+/*all pages*/
 #header{
 	background-color: #3d68d0;
 	width: 100%;
@@ -78,13 +78,18 @@ html{
 	color: #d8b405;
 }
 
-/*content*/
 #main{
 	margin: auto;
 	padding-left: 20px;
 	padding-right: 20px;
 }
 
+footer{
+	text-align: center;
+	color: #204fc1;
+}
+
+/*index*/
 #content{
 	width: 100%
 	height: auto;
@@ -114,7 +119,6 @@ h2{
 	width: 210px;
 }
 
-/*sidebar*/
 @media (min-width: 404px){
 	#sidebar{
 		width: 88%;
@@ -136,7 +140,3 @@ h2{
 	height: auto;
 }
 
-footer{
-	text-align: center;
-	color: #204fc1;
-}

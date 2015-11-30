@@ -145,3 +145,18 @@ h2{
 h3 {
 	font-family: Champagne & Limousines;
 }
+
+#appetizer p{
+	font-style: italic;
+	padding-left: 50px;
+}
+
+#entree p{
+	font-style: italic;
+	padding-left: 50px;
+}
+
+#dessert p{
+	font-style: italic;
+	padding-left: 50px;
+}

@@ -8,6 +8,11 @@ html{
 	box-sizing: inherent;
 }
 
+@font-face {
+    font-family: Champagne & Limousines;
+    src:url(fonts/champagne_limousines/Champagne%20&%20Limousines.ttf);
+}
+
 .site container{
 	max-width: 1200px; 
 }

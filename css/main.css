@@ -160,3 +160,9 @@ h3 {
 	font-style: italic;
 	padding-left: 50px;
 }
+
+.menu_img {
+	width:40%;
+	text-align: center;
+	padding-left: 200px;
+}

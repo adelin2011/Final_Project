@@ -85,6 +85,10 @@ html{
 	padding-right: 20px;
 }
 
+h3 {
+	font-family: Champagne & Limousines;
+}
+
 footer{
 	text-align: center;
 	color: #204fc1;
@@ -100,10 +104,6 @@ h1{
 	margin-top: 65px;
 	font-size: 2em;
 	margin-bottom: -20px;
-}
-
-h2{
-	text-shadow: 2px 2px 3px ##204fc1;
 }
 
 #button{
@@ -128,7 +128,7 @@ h2{
 
 #sidebar{
 	margin: auto;
-	width: 85%;
+	width: 60%;
 	background-color: #FFF8DC;
 	padding: 10px 10px 10px 10px;
 	margin-bottom: 20px; 
@@ -142,10 +142,6 @@ h2{
 }
 
 /*menu*/
-
-h3 {
-	font-family: Champagne & Limousines;
-}
 
 #appetizer p{
 	font-style: italic;
@@ -174,3 +170,19 @@ figcaption{
 }
 
 /*about*/
+
+#events{
+	margin: auto;
+	width: 85%;
+	background-color: #FFF8DC;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 20px;  
+}
+
+#event_img{
+	text-align: center;
+	padding-top: 20px;
+	max-width: 100%;
+	height: auto;
+	padding-left: 200px;
+}

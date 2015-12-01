@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	 $.backstretch(
+	 $(".foo").backstretch(
 	 	[
 	 		"img/paris1.jpg",
 	 		"img/paris2.jpg",

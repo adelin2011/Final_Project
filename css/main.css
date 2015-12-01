@@ -166,3 +166,8 @@ h3 {
 	text-align: center;
 	padding-left: 200px;
 }
+
+figcaption{
+	text-align: center;
+	font-style: italic;
+}

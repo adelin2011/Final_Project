@@ -179,6 +179,14 @@ figcaption{
 	margin-bottom: 20px;  
 }
 
+#about_img1{
+	float:left;
+}
+
+#about_img2{
+	float:right;
+}
+
 #event_img{
 	text-align: center;
 	padding-top: 20px;

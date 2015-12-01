@@ -38,12 +38,12 @@ html{
 }
 
 @media (min-width: 392px){
-	#navigation{
+	.navigation{
 		display: block;
 	}
 }
 
-#navigation{
+.navigation{
 	width: 100%;
 	margin: auto;
 	margin-top: 10px;
@@ -51,21 +51,21 @@ html{
 	text-align: center; 
 }
 
-#navigation ul{
+.navigation ul{
 	margin: 0;
 	list-style: none;
 }
 
-#navigation li{
+.navigation li{
 	float: left;
 }
 
-#navigation ul, li{
+.navigation ul, li{
 	font-size: 20px;
 	margin-left: 70px;
 }
 
-#navigation a{
+.navigation a{
 	display: inline;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -75,7 +75,7 @@ html{
 	font-weight: bold;
 }
 
-#navigation a:hover, .current_page a{
+,navigation a:hover, .current_page a{
 	color: #d8b405;
 }
 

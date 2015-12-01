@@ -8,3 +8,11 @@ $(document).ready(function(){
 	 		duration: 3000.
 	 		fade: 750});	
 });
+
+<script type="text/javascript">
+              jQuery(function($) {
+                $(document).ready( function() {
+                  $('.navigation').stickUp();
+                });
+              });
+</script>

@@ -197,12 +197,18 @@ figcaption{
 
 /*reservations*/
 
+#contact_h2{
+	padding-top: 50px;
+	font-style: italic;
+}
 #contact{
 	float: left;
+	padding-left: 70px;
 }
 
 #hours{
 	float: right;
+	padding-right: 70px;
 }
 
 #contact_img{

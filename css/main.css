@@ -181,7 +181,7 @@ figcaption{
 
 #about_img1{
 	float:left;
-}
+}g
 
 #about_img2{
 	float:right;
@@ -193,4 +193,18 @@ figcaption{
 	max-width: 100%;
 	height: auto;
 	padding-left: 200px;
+}
+
+/*reservations*/
+
+#contact{
+	float: left;
+}
+
+#hours{
+	float: right;
+}
+
+#contact_img{
+	clear: both;
 }

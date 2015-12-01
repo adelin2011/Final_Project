@@ -92,6 +92,7 @@ h3 {
 footer{
 	text-align: center;
 	color: #204fc1;
+	clear: both;
 }
 
 /*index*/
@@ -181,10 +182,12 @@ figcaption{
 
 #about_img1{
 	float:left;
-}g
+	padding-top: 20px;
+}
 
 #about_img2{
 	float:right;
+	padding-top: 20px;
 }
 
 #event_img{
@@ -213,4 +216,17 @@ figcaption{
 
 #contact_img{
 	clear: both;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+
+#share{
+	float:right;
+	margin-top: -300px;
+	margin-right: 40px;
+}
+
+#cooking{
+	float: right;
+	margin-top: -110px;
 }

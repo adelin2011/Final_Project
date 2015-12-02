@@ -35,7 +35,7 @@ h1{
 }
 
 h2{
-	font-size: 3em;
+	font-size: 2em;
 }
 
 h3 {
@@ -166,6 +166,10 @@ h1{
 	padding-left: 50px;
 }
 
+#appetizer, h3{
+	padding-top: 15px;
+}
+
 #entree p{
 	font-style: italic;
 	padding-left: 50px;
@@ -212,15 +216,20 @@ figcaption{
 	padding-top: 20px;
 	max-width: 100%;
 	height: auto;
-	padding-left: 200px;
+	padding-left: 40px;
+}
+
+#events, h2{
+	text-align: center;
 }
 
 /*reservations*/
 
 #contact_h2{
-	padding-top: 50px;
+	padding-top: 30px;
 	font-style: italic;
 }
+
 #contact{
 	float: left;
 	padding-left: 70px;

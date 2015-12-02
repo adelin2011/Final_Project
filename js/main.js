@@ -9,10 +9,10 @@ $(document).ready(function(){
 	 		fade: 750});	
 });
 
-<script type="text/javascript">
-              jQuery(function($) {
-                $(document).ready( function() {
-                  $('.navigation').stickUp();
-                });
-              });
-</script>
+$('container').flowtype({
+ minimum   : 500,
+ maximum   : 1200,
+ minFont   : 12,
+ maxFont   : 40,
+ fontRatio : 30
+});

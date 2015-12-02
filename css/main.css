@@ -75,7 +75,7 @@ html{
 	font-weight: bold;
 }
 
-,navigation a:hover, .current_page a{
+.navigation a:hover, .current_page a{
 	color: #d8b405;
 }
 

@@ -58,9 +58,15 @@ p{
 	height: auto;
 }
 
-@media (min-width: 392px){
+@media (min-width: 1020px){
 	.navigation{
 		display: block;
+	}
+}
+
+@media (min-width: 580px){
+	.navigation{
+		width: 30%;
 	}
 }
 
@@ -152,6 +158,12 @@ h1{
 	margin-bottom: 20px; 
 }
 
+@media (min-width: 755px){
+	#image2{
+		width: 100%;
+	}
+}
+
 #image2{
 	text-align: center;
 	padding-bottom: 20px;
@@ -180,6 +192,12 @@ h1{
 	padding-left: 50px;
 }
 
+@media (min-width: 630px){
+	.menu_img{
+		padding: inherit;
+	}
+}
+
 .menu_img {
 	width:40%;
 	text-align: center;
@@ -199,6 +217,18 @@ figcaption{
 	background-color: #FFF8DC;
 	padding: 10px 10px 10px 10px;
 	margin-bottom: 20px;  
+}
+
+@media (min-width: 1670px){
+	.evnts{
+		display: block;
+	}
+}
+
+@media (min-width: 1670px){
+	#body{
+		display: block;
+	}
 }
 
 #about_img1{
@@ -243,16 +273,14 @@ figcaption{
 #contact_img{
 	clear: both;
 	padding-top: 30px;
-	padding-left: 20px;
+	padding-left: 200px;
 }
 
 #share{
-	float:right;
 	margin-top: -300px;
-	margin-right: 40px;
+	padding-left: 640px;
 }
 
 #cooking{
-	float: right;
-	margin-top: -110px;
+	padding-left: 600px;
 }

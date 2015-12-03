@@ -14,5 +14,4 @@ $('#container').flowtype({
  maximum   : 1200,
  minFont   : 15,
  maxFont   : 20,
- fontRatio : 20
 });

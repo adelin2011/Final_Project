@@ -58,14 +58,6 @@ p{
 	height: auto;
 }
 
-#main{
-	margin: auto;
-	padding-left: 20px;
-	padding-right: 20px;
-	background-color: #ffffff;
-	opacity:0.6;
-}
-
 @media (min-width: 1020px){
 	.navigation{
 		display: block;
@@ -112,6 +104,12 @@ p{
 
 .navigation a:hover, .current_page a{
 	color: #d8b405;
+}
+
+#main{
+	margin: auto;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 footer{

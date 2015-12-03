@@ -9,10 +9,10 @@ $(document).ready(function(){
 	 		fade: 750});	
 });
 
-$('container').flowtype({
- minimum   : 500,
+$('#container').flowtype({
+ minimum   : 300,
  maximum   : 1200,
- minFont   : 12,
- maxFont   : 40,
- fontRatio : 30
+ minFont   : 15,
+ maxFont   : 20,
+ fontRatio : 20
 });

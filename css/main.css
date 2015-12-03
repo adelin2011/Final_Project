@@ -13,7 +13,7 @@ html{
     src:url(fonts/champagne_limousines/Champagne%20&%20Limousines.ttf);
 }
 
-.site container{
+.sitecontainer {
 	max-width: 1200px; 
 }
 
@@ -56,6 +56,14 @@ p{
 	margin-left: 10px;
 	max-width: 100%;
 	height: auto;
+}
+
+#main{
+	margin: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #ffffff;
+	opacity:0.6;
 }
 
 @media (min-width: 1020px){
@@ -104,12 +112,6 @@ p{
 
 .navigation a:hover, .current_page a{
 	color: #d8b405;
-}
-
-#main{
-	margin: auto;
-	padding-left: 20px;
-	padding-right: 20px;
 }
 
 footer{

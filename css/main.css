@@ -167,8 +167,6 @@ h1{
 #image2{
 	text-align: center;
 	padding-bottom: 20px;
-	max-width: 100%;
-	height: auto;
 }
 
 /*menu*/
@@ -199,9 +197,8 @@ h1{
 }
 
 .menu_img {
-	width:40%;
+	width:30%;
 	text-align: center;
-	padding-left: 200px;
 }
 
 figcaption{
@@ -233,12 +230,10 @@ figcaption{
 
 #about_img1{
 	float:left;
-	padding-top: 20px;
 }
 
 #about_img2{
 	float:right;
-	padding-top: 20px;
 }
 
 #event_img{
@@ -246,7 +241,6 @@ figcaption{
 	padding-top: 20px;
 	max-width: 100%;
 	height: auto;
-	padding-left: 40px;
 }
 
 #events, h2{
@@ -272,15 +266,14 @@ figcaption{
 
 #contact_img{
 	clear: both;
-	padding-top: 30px;
-	padding-left: 200px;
+	text-align: left;
 }
 
 #share{
 	margin-top: -300px;
-	padding-left: 640px;
+	text-align: right;
 }
 
 #cooking{
-	padding-left: 600px;
+	text-align: right;
 }

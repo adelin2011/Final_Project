@@ -157,6 +157,10 @@ h1{
 	margin-bottom: 20px; 
 }
 
+#sidebar, h2{
+	text-align: center;
+}
+
 @media (min-width: 755px){
 	#image2{
 		width: 100%;

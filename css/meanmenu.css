@@ -18,8 +18,7 @@ a.meanmenu-reveal {
 	float: left;
 	width: 100%;
 	position: relative;
-	background: #0c1923;
-	padding: 4px 0;
+	background: #3d68d0;
 	min-height: 42px;
 	z-index: 999999;
 }
@@ -27,7 +26,6 @@ a.meanmenu-reveal {
 .mean-container a.meanmenu-reveal {
 	width: 22px;
 	height: 22px;
-	padding: 13px 13px 11px 13px;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -36,7 +34,7 @@ a.meanmenu-reveal {
 	text-decoration: none;
 	font-size: 16px;
 	text-indent: -9999em;
-	line-height: 22px;
+	line-height: 18px;
 	font-size: 1px;
 	display: block;
 	font-family: Arial, Helvetica, sans-serif;
@@ -53,7 +51,7 @@ a.meanmenu-reveal {
 .mean-container .mean-nav {
 	float: left;
 	width: 100%;
-	background: #0c1923;
+	background: #3d68d0;
 	margin-top: 44px;
 }
 
@@ -95,28 +93,8 @@ a.meanmenu-reveal {
 	visibility: visible;
 }
 
-.mean-container .mean-nav ul li.mean-last a {
-	border-bottom: none;
-	margin-bottom: 0;
-}
-
-.mean-container .mean-nav ul li li li a {
-	width: 70%;
-	padding: 1em 15%;
-}
-
-.mean-container .mean-nav ul li li li li a {
-	width: 60%;
-	padding: 1em 20%;
-}
-
-.mean-container .mean-nav ul li li li li li a {
-	width: 50%;
-	padding: 1em 25%;
-}
-
 .mean-container .mean-nav ul li a:hover {
-	background: #252525;
+	background: #d8b405;
 	background: rgba(255,255,255,0.1);
 }
 
@@ -161,7 +139,6 @@ a.meanmenu-reveal {
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
 }
-
 
 .mean-remove {
 	display: none !important;

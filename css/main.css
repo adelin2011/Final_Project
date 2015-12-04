@@ -198,7 +198,6 @@ h1{
 }
 
 .menu_img {
-	width:30%;
 	text-align: center;
 }
 
@@ -220,6 +219,7 @@ figcaption{
 @media (min-width: 1670px){
 	.evnts{
 		display: block;
+		text-align: center;
 	}
 }
 

@@ -219,7 +219,6 @@ figcaption{
 @media (min-width: 1670px){
 	.evnts{
 		display: block;
-		text-align: center;
 	}
 }
 
@@ -272,9 +271,5 @@ figcaption{
 
 #share{
 	margin-top: -300px;
-	text-align: right;
-}
-
-#cooking{
 	text-align: right;
 }

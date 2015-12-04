@@ -9,3 +9,7 @@ $('#container').flowtype({
  maxFont   : 20,
  fontRatio : 20,
 });
+
+jQuery(document).ready(function () {
+    	jQuery('nav').meanmenu();
+    });

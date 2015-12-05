@@ -110,6 +110,9 @@ p{
 	margin: auto;
 	padding-left: 20px;
 	padding-right: 20px;
+	font-family: 'Champagne & Limousines';
+    background-color: #ffffff;
+    border: 1px solid black;
 }
 
 footer{

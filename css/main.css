@@ -271,6 +271,12 @@ figcaption{
 	padding-right: 70px;
 }
 
+@media (min-width: 740px){
+	#share{
+		clear: left;
+	}
+}
+
 #contact_img{
 	clear: both;
 	text-align: left;
@@ -278,5 +284,5 @@ figcaption{
 
 #share{
 	margin-top: -300px;
-	text-align: right;
+	float: right;
 }

@@ -199,8 +199,14 @@ h1{
 }
 
 @media (min-width: 500px){
+	.menu{
+		display: block;
+	}
+}
+
+@media (min-width: 550px){
 	.menu_img{
-		padding: inherit;
+		width: 100%;
 	}
 }
 

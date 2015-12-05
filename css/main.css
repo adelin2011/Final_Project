@@ -198,7 +198,7 @@ h1{
 	padding-left: 50px;
 }
 
-@media (min-width: 630px){
+@media (min-width: 500px){
 	.menu_img{
 		padding: inherit;
 	}
@@ -233,7 +233,7 @@ figcaption{
 	#body{
 		display: block;
 	}
-}
+}	
 
 #about_img1{
 	float:left;
@@ -270,7 +270,6 @@ figcaption{
 	float: right;
 	padding-right: 70px;
 }
-
 
 #contact_img{
 	clear: both;

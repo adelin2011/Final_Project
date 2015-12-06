@@ -225,25 +225,35 @@ figcaption{
 }
 
 @media all and (min-width: 1670px){
-	.evnts{
-		display: block;
-	}
-}
-
-@media all and (min-width: 1670px){
 	#body{
 		display: block;
 	}
 }	
 
+@media all and (min-width: 1670px){
+	#about_img1{
+		float: none;
+		width: 30%;
+	}
+}
+
+@media all and (min-width: 740px){
+	#about_img2{
+		float: none;
+		width: 70%;
+	}
+}
+
 #about_img1{
 	float:left;
 	overflow: hidden;
+	width:49%;
 }
 
 #about_img2{
 	float:right;
 	overflow: hidden;
+	width: 49%;
 }
 
 #event_img{

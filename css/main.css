@@ -304,7 +304,6 @@ figcaption{
 @media all and (min-width: 740px){
 	#contact_img{
 		clear:both;
-		float: none;
 		width: 100%;
 	}
 }
@@ -312,18 +311,18 @@ figcaption{
 @media all and (min-width: 740px){
 	#share{
 		clear: both;
-		float: none;
+		width:100%;
 	}
 }
 
 #contact_img{
 	clear: both;
-	width:60%;
+	width:100%;
 }
 
 #share{
 	margin-top: -300px;
 	float: right;
 	overflow: hidden;
-	width:39%;
+	width:100%;
 }

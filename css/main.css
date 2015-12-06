@@ -13,6 +13,22 @@ html{
     src:url(fonts/champagne_limousines/Champagne%20&%20Limousines.ttf);
 }
 
+.visuallyhidden{
+	border:0;
+	clip:rect(0 0 0 0);
+	height: 1px;
+	margin: -1px; 
+	overflow: hidden;
+	padding: 0; 
+	position: absolute;
+	width: 1px; 
+}
+
+lightbox.option({
+      'fadeDuration': 300,
+      'fitImagesInViewport':true
+    ;})
+
 .sitecontainer {
 	max-width: 1200px; 
 }
@@ -309,5 +325,5 @@ figcaption{
 	margin-top: -300px;
 	float: right;
 	overflow: hidden;
-	width:40%;
+	width:39%;
 }

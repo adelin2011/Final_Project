@@ -195,6 +195,12 @@ h1{
 
 /*menu*/
 
+@media all and (max-width: 740px){
+	#appetizer, img{
+		width: 100%;
+	}
+}
+
 #appetizer p{
 	font-style: italic;
 	padding-left: 50px;

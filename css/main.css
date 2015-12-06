@@ -27,7 +27,7 @@ html{
 lightbox.option({
       'fadeDuration': 300,
       'fitImagesInViewport':true
-    ;})
+    })
 
 .sitecontainer {
 	max-width: 1200px; 
@@ -304,6 +304,7 @@ figcaption{
 @media all and (min-width: 740px){
 	#contact_img{
 		clear:both;
+		float: none;
 		width: 100%;
 	}
 }
@@ -311,18 +312,18 @@ figcaption{
 @media all and (min-width: 740px){
 	#share{
 		clear: both;
-		width:100%;
+		float: none;
 	}
 }
 
 #contact_img{
 	clear: both;
-	width:100%;
+	width:60%;
 }
 
 #share{
 	margin-top: -300px;
 	float: right;
 	overflow: hidden;
-	width:100%;
+	width:39%;
 }

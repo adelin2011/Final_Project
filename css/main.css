@@ -58,13 +58,13 @@ p{
 	height: auto;
 }
 
-@media (min-width: 1020px){
+@media all and (max-width: 465px){
 	.navigation{
 		display: block;
 	}
 }
 
-@media (min-width: 580px){
+@media all and (max-width: 465px){
 	.navigation{
 		width: 30%;
 	}
@@ -146,7 +146,7 @@ h1{
 	width: 210px;
 }
 
-@media (min-width: 580px){
+@media all and (min-width: 580px){
 	#sidebar{
 		display: block;
 	}
@@ -198,20 +198,15 @@ h1{
 	padding-left: 50px;
 }
 
-@media (min-width: 500px){
-	.menu{
-		display: block;
-	}
-}
-
-@media (min-width: 550px){
+@media all and (max-width: 500px){
 	.menu_img{
-		width: 100%;
+		max-width: 100%;
 	}
 }
 
 .menu_img {
 	text-align: center;
+	max-width:100%;
 }
 
 figcaption{
@@ -229,13 +224,13 @@ figcaption{
 	margin-bottom: 20px;  
 }
 
-@media (min-width: 1670px){
+@media all and (min-width: 1670px){
 	.evnts{
 		display: block;
 	}
 }
 
-@media (min-width: 1670px){
+@media all and (min-width: 1670px){
 	#body{
 		display: block;
 	}
@@ -243,10 +238,12 @@ figcaption{
 
 #about_img1{
 	float:left;
+	overflow: hidden;
 }
 
 #about_img2{
 	float:right;
+	overflow: hidden;
 }
 
 #event_img{
@@ -277,18 +274,29 @@ figcaption{
 	padding-right: 70px;
 }
 
-@media (min-width: 740px){
+@media all and (min-width: 740px){
+	#contact_img{
+		clear:both;
+		float: none;
+		width: 100%;
+	}
+}
+
+@media all and (min-width: 740px){
 	#share{
-		clear: left;
+		clear: both;
+		float: none;
 	}
 }
 
 #contact_img{
 	clear: both;
-	text-align: left;
+	width:60%;
 }
 
 #share{
 	margin-top: -300px;
 	float: right;
+	overflow: hidden;
+	width:40%;
 }

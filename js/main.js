@@ -13,3 +13,17 @@ $('#container').flowtype({
 jQuery(document).ready(function () {
     	jQuery('nav').meanmenu();
     });
+
+
+$(document).ready(function() {
+
+	/* Apply fancybox to multiple items */
+	
+	$(".fancy").fancybox({
+		'transitionIn'	:	'elastic',
+		'transitionOut'	:	'elastic',
+		'speedOut'		:	200, 
+		'overlayShow'	:	false
+	});
+	
+});

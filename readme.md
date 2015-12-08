@@ -21,5 +21,5 @@ http://www.meanthemes.com/plugins/meanmenu/
 
 fancybox.net
 [Fancybox] (fancybox.net)
-	I used this gallery plugin to enlarge the photos on the Menu, About and Reservation pages, when they are clicked on. 			
+	I used this gallery plugin to enlarge the photos on the Menu, About and Reservation pages, when they are clicked on. g			
 

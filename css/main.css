@@ -286,39 +286,37 @@ figcaption{
 }
 
 /*reservations*/
-
-#contact_h2{
-	padding-top: 30px;
-	font-style: italic;
-}
-
-#contact{
-	float: left;
-	padding-left: 70px;
-}
-
-#hours{
-	float: right;
-	padding-right: 70px;
-}
-
-@media all and (min-width: 740px){
-	#contact_img{
-		clear:both;
-		float: none;
-		width: 100%;
-	}
-}
-
-@media all and (min-width: 740px){
-	#share{
-		clear: both;
-		float: none;
-	}
+@media (max-width: 600px) {
+  form > div {
+    margin: 0 0 15px 0; 
+  }
+  form > div > label,
+  legend {
+	  width: 100%;
+    float: none;
+    margin: 0 0 5px 0;
+  }
+  form > div > div,
+  form > div > fieldset > div {
+    width: 100%;
+    float: none;
+  }
+  input[type=text],
+  input[type=email],
+  input[type=url],
+  input[type=password],
+  textarea,
+  select {
+    width: 100%; 
+  }
 }
 
 #form{
 	width:100%;
+}
+
+#form, h3{
+	font-size: 24px;
 }
 
 #contact_img{

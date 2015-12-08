@@ -317,6 +317,10 @@ figcaption{
 	}
 }
 
+#form{
+	width:100%;
+}
+
 #contact_img{
 	clear: both;
 	width:60%;

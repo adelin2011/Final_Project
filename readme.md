@@ -9,11 +9,11 @@ http://aridelin.com/project_final3_Delin_Arianna/index.html
 JQuery Plugins
 http://simplefocus.com/flowtype/
 [Flowtype] (http://simplefocus.com/flowtype/)
-	I used this plugin to make the text more responsive. It adjusts to the size of the page. 
+	I used this plugin to make the text more responsive. The text adjusts to the size of the page. 
 
 http://srobbin.com/jquery-plugins/backstretch/
 [Backstretch] (http://srobbin.com/jquery-plugins/backstretch/)
-	I used this plugin to make a background on all pages of the website. 
+	I used this plugin to make a full-page background on all pages of the website. 
 
 http://www.meanthemes.com/plugins/meanmenu/
 [MeanMenu] (http://www.meanthemes.com/plugins/meanmenu/)
@@ -21,5 +21,5 @@ http://www.meanthemes.com/plugins/meanmenu/
 
 fancybox.net
 [Fancybox] (fancybox.net)
-	I used this gallery plugin to enlarge the photos on the Menu, About and Reservation pages. 			
+	I used this gallery plugin to enlarge the photos on the Menu, About and Reservation pages, when they are clicked on. 			
 

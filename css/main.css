@@ -69,13 +69,14 @@ p{
 	height: auto;
 }
 
-@media all and (max-width: 465px){
+@media all and (max-width: 1360px){
 	.navigation{
 		display: block;
+		width:50%;
 	}
 }
 
-@media all and (max-width: 465px){
+@media all and (max-width: 670px){
 	.navigation{
 		width: 30%;
 	}

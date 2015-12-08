@@ -111,6 +111,7 @@ p{
 	font-size: 1em;
 	color: #a50102;
 	font-weight: bold;
+	text-decoration: none;
 }
 
 .navigation a:hover, .current_page a{

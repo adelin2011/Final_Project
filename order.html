@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="final project part 2" name="description"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+
+    <title>Final Project-Contact</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/meanmenu.css" media="all" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+</head>
+
+<body id="container"  class="background">
+	<header id="header">
+		<figure id="logo">
+			<a href="index.html">
+			<img src="img/Gusteaus_Logo.png" alt="logo"/>
+			</a>
+		</figure>
+	</header>
+
+	<nav class="navigation">
+		<ul>
+			<li> <a href="index.html"> Home </a> </li>
+			<li> <a href="menu.html"> Menu </a> </li>
+			<li> <a href="about.html"> About </a> </li>
+			<li> <a href ="contact.html"> Reservations </a> </li>
+			<li class="current_page"> <a href="order.html"> Orders </a> </li>
+		</ul>
+	</nav>
+	
+	<main id="main">
+
+		<div id="form">	
+		<form method = "post" action="mailto:CookWithGus@gmail.com" name="form">
+			<h3> Place an order for pickup </h3>
+			<label> Full Name </label> 
+			<input type="text" name="name" id="name" size="8"/>
+				</br>	
+			<fieldset>
+				<label id= "Menu Items"> Menu Items: </label>
+					<select name="menuItems">	
+						<optgroup label="Menu">
+							<option value ="Meal 1"> Soupe au cresson, Ratatouille and Crème Brûlée ... 32 Euros</option>
+							<option value ="Meal 2"> Escargot a la Bourguignonne, Duck a l’Orange and Profiterole au Chocolat ... 54 Euros</option>
+							<option value ="Meal 2"> Chevre with Herbs, Linguini au Pistou and Sorbet ... 34 Euros </option>
+					</select>		 	
+			</fieldset>
+			<fieldset>
+		      <legend id="title5" class="desc">
+		        Quantity
+		      </legend>
+		      	<div>
+		      		<input id="option1" type="hidden" value="">
+		      	<div>
+		      		<input id="option1" name="option1" type="radio" value="1" tabindex="5" checked="checked">
+		      		<label class="choice" for="option1">1</label>
+
+		      	<div>
+		      		<input id="option2" type="hidden" value="">
+		      	<div>
+		      		<input id="option2" name="option2" type="radio" value="2" tabindex="5" >
+		      		<label class="menuoptions" for="option2">2</label>
+		      	</div>
+		      	
+		      	<div>
+		      		<input id="option3" type="hidden" value="">
+		      	<div>
+		      		<input id="option3" name="option3" type="radio" value="3" tabindex="5" >
+		      		<label class="menuoptions" for="option3">3</label>
+		      	</div>	
+		      	</div>
+					</br>
+			<fieldset>
+				<legend> Comments or changes to meal options. </legend> 
+				<textarea name="comments" rows= "3" cols ="30"></textarea>	
+			</fieldset>	
+
+			<input type="submit" name="submit" id="submit" value="Submit"/>
+		</form>	
+	</div>		
+
+	<footer> 
+			<p> &copy; 2015 </p>
+		</footer> 
+
+	</main>	
+ 	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/jquery.backstretch.min.js"></script>
+	<script src="js/jquery.meanmenu.js"></script>
+	<script src="js/flowtype.js"></script>
+	<script src="js/jquery.fancybox.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

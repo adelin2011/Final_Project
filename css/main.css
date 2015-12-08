@@ -315,13 +315,6 @@ figcaption{
 #form{
 	margin: auto;
 	width: 90%;
-	background-color: #FFF8DC;
-	padding: 10px 10px 10px 10px;
-	margin-bottom: 20px;
-}
-
-#form, h3{
-	font-size: 24px;
 }
 
 #contact_img{
